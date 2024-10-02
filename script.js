@@ -52,13 +52,13 @@ hoistingExample();
 
 // 8. The this Keyword
 const person = {
-    name: "Alice",
+    name: "Jagadeesh",
     greet: function() {
         console.log("Hello, " + this.name);
     }
 };
 
-person.greet(); // "Hello, Alice"
+person.greet(); // "Hello, Jagadeesh"
 
 // 9. The this Keyword in Practice
 const car = {
@@ -107,4 +107,4 @@ modifyPrimitive(num);
 modifyObject(obj3);
 
 console.log(num); // 50
-console.log(obj3.val
+console.log(obj3.value);
