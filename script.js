@@ -1,3 +1,20 @@
+// 1. High-Level Overview of JavaScript
+console.log("JavaScript is a versatile programming language used for web development.");
+
+// 2. The JavaScript Engine and Runtime
+const currentDate = new Date();
+console.log("Current Date and Time:", currentDate);
+
+// 3. Execution Contexts and The Call Stack
+function firstFunction() {
+    secondFunction();
+}
+
+function secondFunction() {
+    console.log("Hello from secondFunction!");
+}
+
+firstFunction();
 
 // 4. Scope and The Scope Chain
 function outerFunction() {
